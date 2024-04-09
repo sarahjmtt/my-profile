@@ -1,0 +1,97 @@
+body {
+	background-color: rgb(162,149,121);
+	color: rgb(15,44,89);
+	font-family: Tahoma;
+	text-align: center;
+	align-items: center;
+}
+	
+h1 {
+	color: rgb(15,44,89);
+	font-family: Tahoma;
+	font-size:30px;
+}
+
+h2{
+	color: rgb(122,109,81);
+	font-family: Tahoma;
+	font-size:20px; 
+}
+
+a{
+	text-decoration: none;
+	color: rgb(15,44,89);
+	font-family: Avenir Next Condensed;
+	font-weight: bolder;
+}
+
+div{
+	width: 650px;
+    height: 135px;
+	background: rgb(244, 229, 210);
+    border-color: rgb(15, 44, 89);
+    padding: 20px;
+    margin: 50px auto;
+    box-shadow: 0px 10px 30px rgb(14,44,89);
+    border-radius: 10px;
+}
+
+#profile{
+	border-radius:60%
+}
+ 
+#div1{
+	width: 650px;
+    height: 450px;
+	background: rgb(244, 229, 210);
+    border-color: rgb(15, 44, 89);
+    padding: 20px;
+    margin: 50px auto;
+    box-shadow: 0px 10px 30px rgb(14,44,89);
+    border-radius: 10px;
+}
+
+#div1 p{
+	margin-bottom: 40px;
+}
+
+#lwglink{
+	background-color: rgb(162,149,121);
+	padding: 15px 20px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+#links{
+	list-style: none;
+	padding left: 0px; 
+}
+
+#links li {
+	display: inline;
+	padding:25px;
+}
+
+#links i {
+	font-size: 65px
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
